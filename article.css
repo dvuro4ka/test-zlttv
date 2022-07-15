@@ -1,0 +1,237 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 16px 30px;
+  border-radius: 56px;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+p {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #373334;
+}
+a:hover {
+  color: #9F0023;
+}
+
+.content {
+  min-height: 100%;
+  padding: 0 200px;
+  background-color: #E5E5E5;
+}
+
+.article__title {
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+.article-top {
+  padding-bottom: 75px;
+}
+.article-top__link {
+  text-decoration: none;
+  color: #959595;
+  font-size: 16px;
+  line-height: 1.35;
+}
+.article-grid {
+  display: grid;
+  grid-template: 1fr/2fr 1fr;
+  grid-gap: 0 50px;
+  border-bottom: 4px solid #000;
+}
+.article-grid-left-top {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+  margin-bottom: 45px;
+}
+.article-grid-left-top__desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #9f0023;
+  padding-right: 35px;
+}
+.article-grid-left-top__time {
+  font-size: 14px;
+  font-weight: 400;
+  color: #959595;
+}
+.article-grid-left-bottom {
+  border-bottom: 1px solid #000;
+}
+.article-grid-left-bottom__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.35;
+  padding-bottom: 30px;
+  color: #373334;
+}
+.article-grid-left-bottom__desc {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.62;
+  padding-bottom: 50px;
+}
+.article-grid-left-bottom__video {
+  width: 100%;
+  height: 560px;
+  padding-bottom: 50px;
+}
+.article-grid-left-bottom-autor {
+  padding-bottom: 45px;
+}
+.article-grid-left-bottom-autor__title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+.article-grid-left-bottom-autor__desc {
+  font-size: 14px;
+  font-weight: 300;
+  color: #959595;
+}
+.article-grid-left-footer {
+  padding-bottom: 70px;
+}
+.article-grid-left-footer__desc {
+  padding: 50px 0 70px 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.62;
+}
+.article-grid-left-footer-wrap {
+  display: grid;
+  grid-template: 1fr/1fr 1fr 1fr;
+  grid-gap: 0px 50px;
+}
+.article-grid-left-footer-wrap-top {
+  border-bottom: 1px solid #000;
+  padding-bottom: 14px;
+}
+.article-grid-left-footer-wrap-bottom {
+  padding-top: 14px;
+}
+.article-grid-left-footer-wrap-bottom__name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.35;
+  color: #373334;
+}
+.article-grid-left-footer-wrap-bottom__link {
+  width: 15px;
+  height: 15px;
+  padding-right: 20px;
+}
+.article-grid-left-footer-wrap-bottom__link--img {
+  width: inherit;
+  height: inherit;
+}
+.article-grid-right-top {
+  border-bottom: 1px solid #000;
+  padding-bottom: 15px;
+  margin-bottom: 45px;
+}
+.article-grid-right-bottom-wrap {
+  padding-bottom: 40px;
+}
+.article-grid-right-bottom-wrap__time {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  padding-bottom: 10px;
+  color: #959595;
+}
+.article-grid-right-bottom-wrap__link {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.comments {
+  padding: 100px 200px;
+  background: #373334;
+}
+.comments-offer__title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.25;
+  padding-bottom: 55px;
+}
+.comments-offer-form {
+  display: grid;
+  grid-template: 1fr/1fr 1fr 1fr;
+  grid-gap: 0px 50px;
+}
+.comments-offer-form:nth-child(4n) {
+  grid-row: span 3;
+}
+.comments-offer-form-wrap {
+  padding-bottom: 50px;
+}
+.comments-offer-form-wrap__input {
+  border: none;
+  background-color: #373334;
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  line-height: 1.35;
+  font-weight: 300;
+  color: #fff;
+  width: 100%;
+}
+.comments-offer-form-wrap-label {
+  display: flex;
+  cursor: pointer;
+  color: #fff;
+}
+.comments-offer-form-wrap-label__img {
+  padding-right: 20px;
+}
+.comments-offer-form-wrap-label__title {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.35;
+}
+.comments-offer-card {
+  padding-top: 30px;
+  display: flex;
+}
+.comments-offer-card__button {
+  color: #fff;
+  border: 2px solid #fff;
+  margin-right: 20px;
+}
+.comments-offer-card__desc {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.35;
+}
+.comments-offer-card__desc--inlink {
+  text-decoration: underline;
+  color: #fff;
+}
+.comments-offer-card__desc--inlink:hover {
+  color: #fff;
+}/*# sourceMappingURL=article.css.map */
